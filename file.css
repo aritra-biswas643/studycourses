@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    /*This is a ul div color */
+    height: 45px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {   
+    /*this is a anchor tag design */
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+li {
+    /* This is a li design */
+    list-style-type: none;
+    display: inline;
+    display: flex;
+    align-self: center;
+    
+    
+}
+
+
+img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 2.5px;
+    border-radius: 50%;
+    text-align: center;
+    
+    
+}
+
+button {
+    /*This is a search button */
+    background-color: orange;
+}
+
+button:hover {
+    background-color: red;
+}
